@@ -1,6 +1,8 @@
 
 import os
 import openai
+import tkinter as tk
+
 
 # Fetch the API key from environment variable
 api_key = os.getenv("OPENAI_API_KEY")
